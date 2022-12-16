@@ -17,15 +17,18 @@ import hd3 from "../assets/jpg/handdrawn3.jpg";
 
 export const artworkData = [
   {
-    name: "Photography",
-    images: [ph1, ph2, ph3, ph4, ph5, ph6, ph7, ph8, ph9, ph10],
-  },
-  {
     name: "3D Modeling",
+    id: "mo",
     images: [m1, m2, m3]
   },
   {
+    name: "Photography",
+    id: "ph",
+    images: [ph1, ph2, ph3, ph4, ph5, ph6, ph7, ph8, ph9, ph10],
+  },
+  {
     name: "Hand-Drawn",
+    id: "hd",
     images: [hd1, hd2, hd3]
   }
 ];

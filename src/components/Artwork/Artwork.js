@@ -31,7 +31,7 @@ function Artwork() {
                     color: theme.quaternary,
                     backgroundColor: theme.tertiary,
                   }}
-                  id={section.name}
+                  id={section.id}
                 >
                   {section.name}
                 </h2>
