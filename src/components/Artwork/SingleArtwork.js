@@ -25,7 +25,7 @@ function SingleArtwork({ art }) {
           alt=""
           style={{
             filter:
-              theme.secondary != "#1b263e"
+              theme.secondary !== "#1b263e"
                 ? "invert(13%) sepia(53%) saturate(506%) hue-rotate(180deg) brightness(96%) contrast(98%)"
                 : "invert(100%) sepia(96%) saturate(579%) hue-rotate(179deg) brightness(101%) contrast(99%)",
           }}
